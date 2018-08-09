@@ -19,7 +19,7 @@ docker run \
   -e email="me@example.com" \
   -p 80:80 \
   -p 443:443 \
-  --rm pierreprinetti/certbot:latest
+  --rm dirceusilva/certbot:latest
 
 # docker start nginx
 ```
@@ -32,7 +32,7 @@ docker run \
   -e renew=true \
   -p 80:80 \
   -p 443:443 \
-  --rm pierreprinetti/certbot:latest
+  --rm dirceusilva/certbot:latest
 ```
 
 ## With dockerized nginx
